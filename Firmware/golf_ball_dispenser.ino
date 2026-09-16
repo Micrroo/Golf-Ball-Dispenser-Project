@@ -50,10 +50,10 @@ void loop() {
   
 
   
-  if(distance < 20 ) {
+  if(distance < 10 ) {
 
     if (!clubPresent) {
-      //club within threshold of 20 cm
+      //club within threshold of 10 cm
       clubPresent = true;      
       startTime = millis(); // Starts timer for when club is within distance threshold
     }
