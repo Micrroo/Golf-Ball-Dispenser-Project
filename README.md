@@ -10,10 +10,15 @@ This project incorporates CAD and Arduino electronics to produce an automatic el
 
 ### Hardware Design and Arduino: 
 **Microcontroller:** Arduino UNO R3
+
 **Actuator:** SG90 Servo Motor
+
 **Sensor:** HC-SR04
+
 **CAD Software:** OnShape
+
 **Component Models:** Arduino UNO R3 and its associated components were sourced via GrabCad to ensure accurate mounting and spacing
+
 **Storage:** Commercial Golf Klicka Stick used as golf ball storage magazine
 
 ### Software
