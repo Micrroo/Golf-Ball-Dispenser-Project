@@ -34,7 +34,7 @@ This project incorporates CAD and Arduino electronics to produce an automatic el
   * `Source_Cad/` — Raw workspace and design history on the main OnShape workspace.
 
 ### How it Works
-1. The Servo Motor arm hold queue of golf balls on ramp.
+1. The Servo Motor arm holds queue of golf balls on ramp.
 2. The HC-SR04 Sensor constantly monitors the golf club view zone (10 cm from sensor).
 3. When HC-SR04 Sensor detects object in golf club view zone vicinity for longer than 2 seconds then it sends signal to Arduino.
 4. Arduino signals Servo Motor to rotate 180 degrees allowing for one golf ball to be released from the ramp.
