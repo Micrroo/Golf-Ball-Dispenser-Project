@@ -64,7 +64,8 @@ void loop() {
 
     // Checks to see if club has been at distance threshold for longer than 2 seconds
     if(clubTime >= 2000) { 
-    
+
+      // Moves servo arm to release golf ball
       myServo.write(180);
       delay(500);
       myServo.write(0);
@@ -75,11 +76,12 @@ void loop() {
       Serial.print("Ball Dispensing");
       Serial.print('\n'); 
 
+      // Resets timer to 0 after dispensing ball
       clubPresent = false;
       startTime = 0;
       } 
 
-
+     // Resets timer to 0 after verifying that club was not present within distance threshold for longer than 2 seconds
     else {
       Serial.print("Time Present: ");
       Serial.print(clubTime);
@@ -89,11 +91,12 @@ void loop() {
 
     } 
     
-  }  
+  } 
+   // Resets timer to 0 after verifying that club did not come into distance threshold
   else {
 
     clubPresent = false; 
-    startTime = 0;
+    startTime = 0; 
     Serial.print("Too Far Away");
     Serial.print('\n');
 
@@ -102,3 +105,4 @@ void loop() {
   
   
   delay(500); // lets ultrasonic signals settle before next detection
+}
