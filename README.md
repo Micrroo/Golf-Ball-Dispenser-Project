@@ -6,7 +6,7 @@ This project incorporates CAD and Arduino electronics to produce an automatic el
 
 ## Proof of Concept and 3D CAD Assembly
 **Electronic Simulation:** 
-[Wowki Simulation Link](https://wokwi.com/projects/478726876520307713)
+[Wokwi Simulation Link](https://wokwi.com/projects/478726876520307713)
 <img width="1126" height="866" alt="DispenserArduino" src="https://github.com/user-attachments/assets/9655a666-b867-4248-a391-82dae9c117ba" />
 
 **3D CAD Assembly Model:** 
